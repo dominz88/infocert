@@ -1,5 +1,7 @@
-# infocert
-Dirty script to get information from a tls certificate
+# Infocert
+Dirty script to get the domains included in a tls certificate.
+
+It can also validate a certificate (from a local file or a remote server) or a CSR against a private key to see if they match.
 
 ## Requirements
 * bash
