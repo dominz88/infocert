@@ -6,7 +6,7 @@ In short it can:
 
 * Get the validity of a certificate
 * List the domains included in a certificate
-* Validate a certificate or a CSR against a private key to see if they match.
+* Validate a certificate or a CSR against a private key to see if they match
 * If an URL is provided it will download the certificate to /tmp/
 
 Only RSA certificates are supported.
@@ -16,14 +16,15 @@ Only RSA certificates are supported.
 * openssl
 
 ## Usage
-    -c	Certificate, do not use with -d
-    -d	Domain, do not use with -c
-    -i	IP
-    -h	This help
-    -k	Private key
-    -p	Port, do not use with -c
-    -r	CSR
-
+```
+  -c  Certificate file
+  -d  Domain, do not use with -i
+  -i  IP address, do not use with -d
+  -h  This help
+  -k  Private key file
+  -p  Port
+  -r  CSR file
+```
 ```
 $ bash scripts/infocert.sh -d github.com
 ========== CERTIFICATE ==========
