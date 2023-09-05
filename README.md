@@ -32,4 +32,5 @@ Not Before: Feb 14 00:00:00 2023 GMT
 Not After : Mar 14 23:59:59 2024 GMT
 Subject: C = US, ST = California, L = San Francisco, O = "GitHub, Inc.", CN = github.com
 DNS:github.com, DNS:www.github.com
-Certificate modulus: baf59ff7f5b05fde6799439b6f31a290```
+Certificate modulus: baf59ff7f5b05fde6799439b6f31a290
+```
